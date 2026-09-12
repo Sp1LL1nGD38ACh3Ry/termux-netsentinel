@@ -1,0 +1,10 @@
+{
+  "comment": "Add devices you know. MAC keys are best; IPs change with DHCP.",
+  "gateway_hint": "",
+  "macs": {
+    "00:00:00:00:00:00": "example-router-replace-me"
+  },
+  "ips": {
+    "192.168.1.1": "example-gateway-replace-me"
+  }
+}

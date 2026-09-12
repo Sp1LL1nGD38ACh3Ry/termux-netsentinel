@@ -1,0 +1,20 @@
+{
+  "comment": "Small built-in defensive indicators. Not a complete threat feed. Heuristic only.",
+  "suspicious_ports": {
+    "4444": "often used by remote-access tools",
+    "4445": "often used by remote-access tools",
+    "5555": "ADB / some remote-access tools",
+    "6666": "legacy IRC / some remote-access tools",
+    "6667": "IRC (sometimes abused for C2)",
+    "12345": "classic backdoor default",
+    "31337": "classic backdoor default",
+    "1337": "commonly chosen by hobby malware",
+    "8081": "alternate HTTP often used by exposed admin panels",
+    "9999": "generic high listener",
+    "1080": "SOCKS proxy",
+    "9050": "Tor SOCKS",
+    "9051": "Tor control"
+  },
+  "suspicious_remote_ports_only_if_untrusted": [23, 2323, 2222, 5900, 5901, 3389],
+  "note_on_ports": "Many of these ports have legitimate uses (Tor, VNC you run yourself, ADB). Context matters."
+}

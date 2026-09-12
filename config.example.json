@@ -1,0 +1,11 @@
+{
+  "interval_seconds": 4,
+  "scan_lan": false,
+  "try_pcap": false,
+  "max_new_remotes_per_window": 12,
+  "window_seconds": 60,
+  "alert_on_new_lan_host": true,
+  "alert_on_suspicious_port": true,
+  "log_file": "netsentinel.log",
+  "trusted_file": "trusted.json"
+}
